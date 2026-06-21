@@ -29,36 +29,3 @@ this.reset();
 
 }
 
-// RESERVATION FORM
-const reservationForm=document.getElementById("reservationForm");
-
-if(reservationForm){
-
-reservationForm.addEventListener("submit",function(e){
-
-e.preventDefault();
-
-alert("Reservation submitted successfully!");
-
-this.reset();
-
-});
-
-}
-
-// SMOOTH SCROLL
-document.querySelectorAll('a[href^="#"]').forEach(anchor=>{
-
-anchor.addEventListener("click",function(e){
-
-e.preventDefault();
-
-document.querySelector(this.getAttribute("href")).scrollIntoView({
-
-behavior:"smooth"
-
-});
-
-});
-
-});
