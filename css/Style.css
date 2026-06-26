@@ -157,4 +157,13 @@ footer a:hover{
     margin:40px 0 20px;
 }
 
+.card img{
+    height: 250px;
+    object-fit: cover;
+}
+
+.card h6{
+    font-weight: bold;
+}
+
 }
