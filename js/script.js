@@ -29,3 +29,20 @@ this.reset();
 
 }
 
+// RESERVATION FORM
+const reservationForm=document.getElementById("reservationForm");
+
+if(reservationForm){
+
+reservationForm.addEventListener("submit",function(e){
+
+e.preventDefault();
+
+alert("Reservation submitted successfully!");
+
+this.reset();
+
+});
+
+}
+
